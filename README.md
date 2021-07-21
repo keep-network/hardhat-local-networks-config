@@ -1,7 +1,7 @@
 [![hardhat](https://hardhat.org/buidler-plugin-badge.svg?1)](https://hardhat.org)
 [![CI Status](https://github.com/keep-network/hardhat-local-networks-config/workflows/CI/badge.svg)](https://github.com/keep-network/hardhat-local-networks-config/actions)
 
-# hardhat-local-networks-config-plugin
+# hardhat-local-networks-config
 
 Allow loading network configs for Hardhat projects from external file.
 

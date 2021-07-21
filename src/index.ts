@@ -77,7 +77,7 @@ export function readLocalNetworksConfig(
 
   if (localNetworksConfigPath && !fs.existsSync(localNetworksConfigPath)) {
     throw new HardhatPluginError(
-      `hardhat-local-networks-config-plugin`,
+      `@keep-network/hardhat-local-networks-config`,
       `configuration file not found under "localNetworksConfig" path: ${userConfig.localNetworksConfig}; ` +
         `resolved path: ${localNetworksConfigPath}`
     )
