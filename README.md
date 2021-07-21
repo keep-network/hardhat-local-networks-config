@@ -1,5 +1,5 @@
 [![hardhat](https://hardhat.org/buidler-plugin-badge.svg?1)](https://hardhat.org)
-[![CI Status](https://github.com/facuspagnuolo/hardhat-local-networks-config-plugin/workflows/CI/badge.svg)](https://github.com/facuspagnuolo/hardhat-local-networks-config-plugin/actions)
+[![CI Status](https://github.com/keep-network/hardhat-local-networks-config/workflows/CI/badge.svg)](https://github.com/keep-network/hardhat-local-networks-config/actions)
 
 # hardhat-local-networks-config-plugin
 
@@ -16,19 +16,19 @@ For example, you can keep your providers keys or private keys in a secured direc
 Install dependency from NPM:
 
 ```bash
-npm install hardhat-local-networks-config-plugin hardhat
+npm install @keep-network/hardhat-local-networks-config hardhat
 ```
 
 And add the following statement to your `hardhat.config.js`:
 
 ```js
-require('hardhat-local-networks-config-plugin')
+require('@keep-network/hardhat-local-networks-config')
 ```
 
 Or, if you are using TypeScript, add this to your hardhat.config.ts:
 
 ```ts
-import 'hardhat-local-networks-config-plugin';
+import '@keep-network/hardhat-local-networks-config';
 ```
 
 ## Required plugins
@@ -103,4 +103,4 @@ A local configuration file could look as follows:
 ## TypeScript support
 
 You need to add this to your `tsconfig.json`'s `files` array: 
-`"node_modules/hardhat-local-networks-config-plugin/src/type-extensions.d.ts"`
+`"node_modules/@keep-network/hardhat-local-networks-config/src/type-extensions.d.ts"`

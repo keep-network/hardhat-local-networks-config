@@ -1,8 +1,8 @@
 {
-  "name": "hardhat-local-networks-config-plugin",
-  "version": "0.0.6",
+  "name": "@keep-network/hardhat-local-networks-config",
+  "version": "0.1.0",
   "description": "Local networks config plugin for Hardhat",
-  "repository": "github:facuspagnuolo/hardhat-local-networks-config-plugin",
+  "repository": "github:keep-network/hardhat-local-networks-config",
   "author": "Facu Spagnuolo<facundo_spagnuolo@icloud.com>",
   "license": "MIT",
   "main": "dist/src/index.js",
