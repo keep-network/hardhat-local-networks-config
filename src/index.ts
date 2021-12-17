@@ -6,6 +6,7 @@ import { extendConfig } from 'hardhat/config'
 import { HardhatConfig, NetworkConfig, NetworksUserConfig, NetworkUserConfig, HardhatUserConfig } from 'hardhat/types'
 import { HardhatPluginError } from 'hardhat/plugins'
 import { parseLocalNetworksConfigPath } from './utils'
+import "./type-extensions"
 
 const HARDHAT_CONFIG_DIR = '.hardhat'
 const HARDHAT_NETWORK_CONFIG_FILE = 'networks.json'
